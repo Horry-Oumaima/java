@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication8.FXMLDocumentController">
+    <stylesheets>
+        <URL value="@/CSS/suivie normale.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="poids" layoutX="194.0" layoutY="112.0" promptText="poids" />
+      <TextField fx:id="taille" layoutX="193.0" layoutY="57.0" promptText="taille" />
+      <TextField fx:id="pmax" layoutX="194.0" layoutY="175.0" />
+      <TextField fx:id="pmin" layoutX="194.0" layoutY="232.0" />
+      <Label layoutX="131.0" layoutY="179.0" text="Pression:" />
+      <Button fx:id="confirmer" layoutX="393.0" layoutY="264.0" mnemonicParsing="false" onAction="#res_suivie_normale" text="confirmer" />
+      <Label fx:id="m1" layoutX="164.0" layoutY="332.0" />
+      <Label fx:id="m" layoutX="164.0" layoutY="303.0" />
+      <Label fx:id="m2" layoutX="164.0" layoutY="368.0" />
+   </children>
+</AnchorPane>

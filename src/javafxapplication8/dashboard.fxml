@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication8.FXMLDocumentController">
+   <children>
+      <Label layoutX="168.0" layoutY="14.0" text="Welcome" textFill="#c42626">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="bntreserver" layoutX="372.0" layoutY="174.0" mnemonicParsing="false" onAction="#Reserver_Rdv" text="reserverRDV" />
+      <Button fx:id="suivNormal" layoutX="174.0" layoutY="174.0" mnemonicParsing="false" onAction="#suivie_normale" prefHeight="26.0" prefWidth="98.0" text="Suivie Normale" />
+   </children>
+</AnchorPane>

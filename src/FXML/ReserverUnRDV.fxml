@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="458.0" prefWidth="655.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLERS.ReserverUnRDVController">
+    <stylesheets>
+        <URL value="@/CSS/reserverunrdv.css" />
+    </stylesheets>
+   <children>
+      <ComboBox fx:id="specialBTn" layoutX="177.0" layoutY="58.0" prefWidth="150.0" promptText="choisir..." />
+      <Label fx:id="specialte" layoutX="103.0" layoutY="62.0" text="Spécialité:" />
+      <Label fx:id="adresse" layoutX="109.0" layoutY="109.0" text="Adresse:" />
+      <Label fx:id="date" layoutX="116.0" layoutY="151.0" text="Date:" />
+      <ComboBox fx:id="addressbnt" layoutX="177.0" layoutY="105.0" prefWidth="150.0" promptText="choisir..." />
+      <DatePicker fx:id="datebnt" layoutX="165.0" layoutY="147.0" />
+   </children>
+</AnchorPane>

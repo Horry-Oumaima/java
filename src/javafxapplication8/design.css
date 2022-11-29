@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 nov. 2022, 20:50:53
+    Author     : MSI
+*/
+
+.login-bg {
+    -fx-background-color: linear-gradient(to bottom right,#6a9ae7,#426fb1);
+}
+.login-card {
+    -fx-background-color: #30363f;
+}
+
+.button-desgin {
+    -fx-background-color: #30363f;
+    -fx-background-radius: 40px;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+
+.button-desgin:hover {
+    -fx-background-color: #6a9ae7;
+}
+
+.hypetext-design {
+    -fx-text-fill: #fff;
+    -fx-background-color: none;
+    -fx-border-wodth:0px 
+}
+
